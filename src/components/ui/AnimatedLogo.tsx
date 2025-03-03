@@ -15,12 +15,16 @@ const AnimatedLogo: React.FC = () => {
         whileTap={{ scale: 0.95 }}
       >
         <motion.div
-          className="w-10 h-10 rounded-lg bg-gradient-to-tr from-arttronik-deep via-arttronik-primary to-arttronik-light flex items-center justify-center mr-3"
+          className="w-10 h-10 flex items-center justify-center mr-3"
           initial={{ rotate: -10, scale: 0.9 }}
           animate={{ rotate: 0, scale: 1 }}
           transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
         >
-          <span className="text-white font-bold text-lg">A</span>
+          <img 
+            src="/lovable-uploads/10a992ac-43cb-4512-bece-e6ab2bde8aa8.png" 
+            alt="Arttronik Logo" 
+            className="w-full h-full object-contain"
+          />
         </motion.div>
         <motion.div
           initial={{ x: -10, opacity: 0 }}

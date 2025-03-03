@@ -1,4 +1,5 @@
 
+import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { Stethoscope, Microscope, HeartPulse, Shield } from 'lucide-react';
@@ -6,7 +7,7 @@ import { Button } from '@/components/ui/button';
 import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
 import Hero from '@/components/home/Hero';
-import Card from '@/components/ui/Card';
+import Card from '@/components/ui/card'; // Changed from 'Card' to 'card' to match shadcn component naming
 import BlurImage from '@/components/ui/BlurImage';
 import AnimatedCounter from '@/components/ui/AnimatedCounter';
 
