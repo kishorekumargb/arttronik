@@ -21,7 +21,7 @@ const AnimatedLogo: React.FC = () => {
           transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
         >
           <img 
-            src="/lovable-uploads/10a992ac-43cb-4512-bece-e6ab2bde8aa8.png" 
+            src="/lovable-uploads/d15b3a59-c901-4fbd-962f-5c7aeca834e9.png" 
             alt="Arttronik Logo" 
             className="w-full h-full object-contain"
           />

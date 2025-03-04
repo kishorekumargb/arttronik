@@ -7,7 +7,7 @@ import { Button } from '@/components/ui/button';
 import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
 import Hero from '@/components/home/Hero';
-import Card from '@/components/ui/card'; // Changed from 'Card' to 'card' to match shadcn component naming
+import { Card } from '@/components/ui/card'; // Correctly import Card as a named export, not default
 import BlurImage from '@/components/ui/BlurImage';
 import AnimatedCounter from '@/components/ui/AnimatedCounter';
 
