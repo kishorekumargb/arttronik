@@ -1,8 +1,9 @@
+
 import { Button } from "@/components/ui/button";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import Hero from "@/components/home/Hero";
-import { Card } from "@/components/ui/Card";
+import { Card as ShadcnCard } from "@/components/ui/card";
 import FeatureCard from "@/components/ui/FeatureCard";
 import { motion } from "framer-motion";
 import { Activity, HeartPulse, Lightbulb, Shield } from "lucide-react";
