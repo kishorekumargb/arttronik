@@ -39,37 +39,121 @@ const Products = () => {
       category: 'Hematology',
       description: 'Comprehensive blood analysis system for complete blood count and differential with advanced cell detection technology.',
       image: 'https://www.merillife.com/uploads/products/HAEMATOLOGY/haematology.jpg'
+    },
+    {
+      id: 5,
+      name: 'ELISA READER & WASHER',
+      category: 'Immunology',
+      description: 'High-precision microplate reader and washer system for ELISA tests with advanced optical technology.',
+      image: 'https://www.merillife.com/uploads/products/ELISA/elisa.jpg'
+    },
+    {
+      id: 6,
+      name: 'ELECTROLYTE ANALYZER',
+      category: 'Lab Equipment',
+      description: 'Specialized analyzer for precise measurement of electrolytes in blood and other body fluids.',
+      image: 'https://www.merillife.com/uploads/products/ELECTROLYTE/electrolyte.jpg'
+    },
+    {
+      id: 7,
+      name: 'COAGULATION ANALYZER',
+      category: 'Hematology',
+      description: 'Advanced system for testing blood coagulation parameters with high accuracy and reliability.',
+      image: 'https://www.merillife.com/uploads/products/COAGULATION/coagulation.jpg'
+    },
+    {
+      id: 8,
+      name: 'URINE ANALYZER',
+      category: 'Urinalysis',
+      description: 'Automated urine analysis system for comprehensive urinalysis with reliable results.',
+      image: 'https://www.merillife.com/uploads/products/URINE/urine.jpg'
+    },
+    {
+      id: 9,
+      name: 'HBA1C ANALYZER',
+      category: 'Diabetes Care',
+      description: 'Specialized analyzer for measuring glycated hemoglobin levels for diabetes monitoring.',
+      image: 'https://www.merillife.com/uploads/products/HBA1C/hba1c.jpg'
+    },
+    {
+      id: 10,
+      name: 'BLOOD GAS ANALYZER',
+      category: 'Critical Care',
+      description: 'Rapid analysis system for blood gases and electrolytes for critical care applications.',
+      image: 'https://www.merillife.com/uploads/products/BLOOD-GAS/blood-gas.jpg'
+    },
+    {
+      id: 11,
+      name: 'IMMUNO ANALYZER',
+      category: 'Immunology',
+      description: 'Advanced system for immunoassay testing with high sensitivity and precision.',
+      image: 'https://www.merillife.com/uploads/products/IMMUNO/immuno.jpg'
+    },
+    {
+      id: 12,
+      name: 'ESR ANALYZER',
+      category: 'Hematology',
+      description: 'Automated erythrocyte sedimentation rate analyzer for accurate inflammation assessment.',
+      image: 'https://www.merillife.com/uploads/products/ESR/esr.jpg'
     }
   ];
 
   const criticalCareProducts = [
     {
       id: 1,
-      name: 'Ventilator System',
-      category: 'Respiratory',
-      description: 'Advanced ventilator with multiple ventilation modes for critical care patients.',
-      image: 'https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80'
+      name: 'BeneVision N Series Patient Monitor',
+      category: 'Patient Monitoring',
+      description: 'Advanced patient monitor with comprehensive monitoring capabilities and intuitive interface.',
+      image: 'https://maestroselectronics.com/api/images/1635514996-Untitled design (35).png'
     },
     {
       id: 2,
-      name: 'Patient Monitor',
-      category: 'Monitoring',
-      description: 'Comprehensive patient monitoring system for vital signs and physiological parameters.',
-      image: 'https://images.unsplash.com/photo-1516549655169-df83a0774514?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80'
+      name: 'Maestros Stellar ICU Ventilator',
+      category: 'Ventilation',
+      description: 'High-performance ICU ventilator with multiple ventilation modes for critical care patients.',
+      image: 'https://maestroselectronics.com/api/images/1655796268-M-2022 3.png'
     },
     {
       id: 3,
-      name: 'Infusion Pump',
-      category: 'Medication Delivery',
-      description: 'Precision infusion pump for controlled administration of medications and fluids.',
-      image: 'https://images.unsplash.com/photo-1583912262712-c884d51eb1a4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80'
+      name: 'Maestros Transport Ventilator',
+      category: 'Ventilation',
+      description: 'Portable ventilator designed for patient transport with reliable performance.',
+      image: 'https://maestroselectronics.com/api/images/1649844855-Untitled design (6).png'
     },
     {
       id: 4,
-      name: 'Defibrillator',
+      name: 'Maestros EtCO2 Module',
+      category: 'Respiratory Monitoring',
+      description: 'Accurate end-tidal CO2 monitoring module for respiratory assessment.',
+      image: 'https://maestroselectronics.com/api/images/1635514765-Untitled design (34).png'
+    },
+    {
+      id: 5,
+      name: 'Maestros Defibrillator',
       category: 'Cardiac Care',
       description: 'Advanced defibrillator with monitoring capabilities for cardiac emergencies.',
-      image: 'https://images.unsplash.com/photo-1543333995-a78aea2eee50?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80'
+      image: 'https://maestroselectronics.com/api/images/1650364493-bene heart d3 clear.png'
+    },
+    {
+      id: 6,
+      name: 'Maestros Syringe Pump',
+      category: 'Medication Delivery',
+      description: 'Precision syringe pump for controlled administration of medications.',
+      image: 'https://maestroselectronics.com/api/images/1649844700-Untitled design (5).png'
+    },
+    {
+      id: 7,
+      name: 'SV300 Ventilator',
+      category: 'Ventilation',
+      description: 'Versatile ventilator for various clinical settings with advanced features.',
+      image: 'https://maestroselectronics.com/api/images/1649843780-SV300.png'
+    },
+    {
+      id: 8, 
+      name: 'CRRT Machine',
+      category: 'Renal Therapy',
+      description: 'Continuous renal replacement therapy system for critical care patients with kidney dysfunction.',
+      image: 'https://maestroselectronics.com/api/images/1650364680-crrt.png'
     }
   ];
 
