@@ -11,21 +11,21 @@ interface TeamMember {
 
 const teamMembers: TeamMember[] = [
   {
-    name: "Dr. Elena Petrova",
+    name: "ARUN ARUMUGAM",
     position: "Founder & CEO",
-    bio: "With over 20 years of experience in medical equipment engineering, Dr. Petrova leads our vision for healthcare innovation.",
+    bio: "With over 10 years of experience in medical equipment engineering, Arun leads our vision for healthcare innovation.",
     image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
   },
   {
-    name: "Michael Anderson",
-    position: "Chief Technical Officer",
-    bio: "A brilliant engineer with expertise in medical devices and quality control systems, ensuring our products meet the highest standards.",
+    name: "Kishore Kumar",
+    position: "Chief Operations & Technology Officer",
+    bio: "With 9+ years of experience, Kishore oversees our technological innovations and operational excellence to deliver cutting-edge medical solutions.",
     image: "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
   },
   {
-    name: "Sophia Chen",
-    position: "Head of Operations",
-    bio: "Overseeing our global operations, Sophia ensures seamless delivery of our products and services to healthcare facilities worldwide.",
+    name: "ARUN PANDI E",
+    position: "Business Development Executive",
+    bio: "Leading our business development initiatives, Arun Pandi ensures our innovative solutions reach healthcare providers worldwide.",
     image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
   }
 ];
