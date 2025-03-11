@@ -14,31 +14,31 @@ const Products = () => {
   const diagnosticsProducts = [
     {
       id: 1,
-      name: 'Digital X-Ray System',
-      category: 'Imaging',
-      description: 'High-resolution digital X-ray system with advanced imaging capabilities.',
-      image: 'https://images.unsplash.com/photo-1530026186672-2cd00ffc50fe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80'
+      name: 'POLYMERASE CHAIN REACTION (PCR)',
+      category: 'Molecular Diagnostics',
+      description: 'A cutting-edge molecular diagnostic tool for detecting genetic material from specific organisms, particularly viruses, with high accuracy.',
+      image: 'https://www.merillife.com/uploads/products/PCR/pcr.jpg'
     },
     {
       id: 2,
-      name: 'Portable Ultrasound',
-      category: 'Imaging',
-      description: 'Compact ultrasound device with exceptional image quality for point-of-care diagnostics.',
-      image: 'https://images.unsplash.com/photo-1576086213369-97a306d36557?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1480&q=80'
+      name: 'AUTOMATIC BIOCHEMISTRY ANALYZER',
+      category: 'Lab Equipment',
+      description: 'Advanced automation for clinical chemistry with seamless reagent handling and precise results for accurate diagnosis.',
+      image: 'https://www.merillife.com/uploads/products/BIOCHEM/biochem.jpg'
     },
     {
       id: 3,
-      name: 'Laboratory Analyzer',
+      name: 'CLINICAL CHEMISTRY ANALYZER',
       category: 'Lab Equipment',
-      description: 'Comprehensive blood analyzer for complete blood count and biochemistry tests.',
-      image: 'https://images.unsplash.com/photo-1581093588401-fbb62a02f120?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80'
+      description: 'Versatile analyzer with multi-parameter testing capabilities for routine biochemistry and specialized tests.',
+      image: 'https://www.merillife.com/uploads/products/BIOCHEM/chem.jpg'
     },
     {
       id: 4,
-      name: 'ECG Machine',
-      category: 'Cardiology',
-      description: 'Advanced 12-lead ECG with real-time analysis and digital record-keeping.',
-      image: 'https://images.unsplash.com/photo-1582719471384-894fbb16e074?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1587&q=80'
+      name: 'HEMATOLOGY ANALYZER',
+      category: 'Hematology',
+      description: 'Comprehensive blood analysis system for complete blood count and differential with advanced cell detection technology.',
+      image: 'https://www.merillife.com/uploads/products/HAEMATOLOGY/haematology.jpg'
     }
   ];
 
