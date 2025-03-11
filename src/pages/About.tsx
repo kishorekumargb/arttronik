@@ -196,22 +196,22 @@ const About = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {[
                 {
-                  name: "Dr. Rajesh Kumar",
+                  name: "Dr. Elena Petrova",
                   position: "Founder & CEO",
-                  bio: "With over 20 years of experience in the medical equipment industry, Dr. Kumar leads our vision for healthcare innovation.",
-                  image: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                  bio: "With over 20 years of experience in medical equipment engineering, Dr. Petrova leads our vision for healthcare innovation.",
+                  image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
                 },
                 {
-                  name: "Priya Sharma",
+                  name: "Michael Anderson",
                   position: "Chief Technical Officer",
                   bio: "A brilliant engineer with expertise in medical devices and quality control systems, ensuring our products meet the highest standards.",
-                  image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1587&q=80"
+                  image: "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
                 },
                 {
-                  name: "Vikram Mehta",
+                  name: "Sophia Chen",
                   position: "Head of Operations",
-                  bio: "Overseeing our global operations, Vikram ensures seamless delivery of our products and services to healthcare facilities worldwide.",
-                  image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                  bio: "Overseeing our global operations, Sophia ensures seamless delivery of our products and services to healthcare facilities worldwide.",
+                  image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
                 }
               ].map((member, index) => (
                 <motion.div
