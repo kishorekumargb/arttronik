@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Card as ShadcnCard, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 interface FeatureCardProps {
   title: string;
@@ -18,7 +18,7 @@ const FeatureCard: React.FC<FeatureCardProps> = ({ title, description, icon, del
       viewport={{ once: true }}
       transition={{ duration: 0.5, delay }}
     >
-      <ShadcnCard className="h-full hover-scale border-0 shadow-lg">
+      <Card className="h-full hover-scale border-0 shadow-lg">
         <CardHeader className="pb-2">
           <div className="flex items-center gap-3 mb-1">
             <div className="p-2 rounded-full bg-arttronik-primary/10 text-arttronik-primary">
@@ -30,7 +30,7 @@ const FeatureCard: React.FC<FeatureCardProps> = ({ title, description, icon, del
         <CardContent>
           <p className="text-gray-600">{description}</p>
         </CardContent>
-      </ShadcnCard>
+      </Card>
     </motion.div>
   );
 };
