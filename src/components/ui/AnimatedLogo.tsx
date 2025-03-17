@@ -15,7 +15,7 @@ const AnimatedLogo: React.FC = () => {
         whileTap={{ scale: 0.95 }}
       >
         <motion.div
-          className="w-10 h-10 flex items-center justify-center mr-3"
+          className="w-12 h-12 flex items-center justify-center mr-3" // Increased from w-10 h-10 to w-12 h-12
           initial={{ rotate: -10, scale: 0.9 }}
           animate={{ rotate: 0, scale: 1 }}
           transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
@@ -32,7 +32,7 @@ const AnimatedLogo: React.FC = () => {
           transition={{ duration: 0.8, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
         >
           <span className="font-bold text-arttronik-primary text-xl">Arttronik</span>
-          <span className="font-medium text-arttronik-light text-xl"> Meditech</span>
+          <span className="font-bold text-arttronik-light text-xl"> Meditech</span> {/* Changed from font-medium to font-bold for consistency */}
         </motion.div>
       </motion.div>
     </Link>
